@@ -1,4 +1,4 @@
-package com.codinginflow.imagesearchapp
+package com.swhite.imagesearchapp
 
 import org.junit.Test
 

@@ -18,7 +18,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        //buildConfigField("String", "UNSPLASH_ACCESS_KEY", unsplash_access_key)
+        buildConfigField("String", "UNSPLASH_ACCESS_KEY", unsplash_access_key)
     }
 
     buildTypes {

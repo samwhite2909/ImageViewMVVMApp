@@ -6,6 +6,6 @@
 
     <fragment
         android:id="@+id/galleryFragment"
-        android:name="com.codinginflow.imagesearchapp.ui.gallery.GalleryFragment"
+        android:name="com.swhite.imagesearchapp.ui.gallery.GalleryFragment"
         android:label="GalleryFragment" />
 </navigation>
