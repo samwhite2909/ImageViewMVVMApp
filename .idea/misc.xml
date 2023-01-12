@@ -12,6 +12,8 @@
         <entry key="..\:/Users/samue/AndroidStudioProjects/ImageSearchAppMVVM/app/src/main/res/layout/activity_main.xml" value="0.3605072463768116" />
         <entry key="..\:/Users/samue/AndroidStudioProjects/ImageSearchAppMVVM/app/src/main/res/layout/fragment_gallery.xml" value="0.3605072463768116" />
         <entry key="..\:/Users/samue/AndroidStudioProjects/ImageSearchAppMVVM/app/src/main/res/layout/item_unsplash_photo.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/ImageSearchAppMVVM/app/src/main/res/layout/unsplash_photo_load_state_footer.xml" value="0.3605072463768116" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/ImageSearchAppMVVM/app/src/main/res/menu/menu_gallery.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
