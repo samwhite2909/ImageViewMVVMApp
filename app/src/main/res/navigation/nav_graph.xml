@@ -13,6 +13,7 @@
             android:id="@+id/action_galleryFragment_to_detailsFragment"
             app:destination="@id/detailsFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/detailsFragment"
         android:name="com.swhite.imagesearchapp.ui.details.DetailsFragment"
@@ -22,4 +23,5 @@
             android:name="photo"
             app:argType="com.swhite.imagesearchapp.data.UnsplashPhoto" />
     </fragment>
+
 </navigation>

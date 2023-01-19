@@ -9,6 +9,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
+//Hilt dependency injection module for the app.
 @Module
 @InstallIn(ApplicationComponent::class)
 object AppModule {

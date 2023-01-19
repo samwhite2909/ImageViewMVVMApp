@@ -15,9 +15,11 @@ import com.swhite.imagesearchapp.data.UnsplashPhoto
 import com.swhite.imagesearchapp.databinding.FragmentGalleryBinding
 import dagger.hilt.android.AndroidEntryPoint
 
+//Starting fragment, inflates the layout and allows for a click listener.
 @AndroidEntryPoint
 class GalleryFragment: Fragment(R.layout.fragment_gallery), UnsplashPhotoAdapter.OnItemClickListener {
 
+    //Assigns the view model to the fragment.
     private val viewModel by viewModels<GalleryViewModel> ()
 
     private var _binding : FragmentGalleryBinding? = null
@@ -42,6 +44,7 @@ class GalleryFragment: Fragment(R.layout.fragment_gallery), UnsplashPhotoAdapter
             }
         }
 
+        //Observe the photos live data.
         viewModel.photos.observe(viewLifecycleOwner) {
             adapter.submitData(viewLifecycleOwner.lifecycle, it)
         }
